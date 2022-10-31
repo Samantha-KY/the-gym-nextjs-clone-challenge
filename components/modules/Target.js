@@ -2,7 +2,7 @@ import React from 'react'
 
 const Target = () => {
     return (
-        <svg viewBox="0 0 296 296" fill="none" xmlns="http://www.w3.org/2000/svg" className='h-40 w-60 md:mr-60 md:h-60 md:w-60'>
+        <svg viewBox="0 0 296 296" fill="none" xmlns="http://www.w3.org/2000/svg" className='h-40 w-60 md:mr-60 md:h-60 md:w-60 md:-mt-10'>
             <path fill="url(#Target_svg__a)" d="M0 0h296v296H0z"></path>
             <path
                 opacity="0.05"

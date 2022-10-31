@@ -6,7 +6,7 @@ function Course() {
   return (
     <section className='flex flex-col justify-center items-center space-y-6 md:flex-row'>
             <Target/>
-            <div className='flex flex-col justify-center items-center md:items-start md:gap-6 gap-6'>
+            <div className='flex flex-col justify-center items-center md:items-start md:gap-6 gap-6 md:relative'>
         <h1 className='text-black/70 text-2xl font-semibold text-center'>Complete the course</h1>
         <p className='font-normal text-black/80 text-center text-base'>In three simple modules, learn:</p>
         <div className='md:flex md:flex-row md:gap-4 flex flex-col justify-center items-center'>
@@ -22,6 +22,7 @@ function Course() {
         <p className='font-normal text-black/80 text-center text-base'>How to build dapps on the NEAR blockchain</p>
         </div>
         <img src='lining2.svg' alt='line' className='items-center hidden md:block md:-ml-[6rem]' />
+        <div className='absolute md:block hidden bg-green-400/75 blur-2xl opacity-10 -ml-[45rem] h-[300px] w-[300px] rounded-full mt-20 -z-20'></div>
         </div>
         
     </section>
