@@ -21,7 +21,7 @@ function Course() {
         <img src='courseIcon4.png' alt='icon 3' className='h-5 w-5'/>
         <p className='font-normal text-black/80 text-center text-base'>How to build dapps on the NEAR blockchain</p>
         </div>
-        <img src='lining2.svg' alt='line' className='items-center hidden md:block' />
+        <img src='lining2.svg' alt='line' className='items-center hidden md:block md:-ml-[6rem]' />
         </div>
         
     </section>
