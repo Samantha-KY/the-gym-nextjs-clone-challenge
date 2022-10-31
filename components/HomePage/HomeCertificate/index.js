@@ -21,7 +21,7 @@ function HomeCertificate() {
         <div className='md:ml-80'>
           <img src='certificateLogo.png' alt='logo' className='h-[11.25rem] w-[11.25rem] hidden md:block md:h-80 md:w-80' />
         </div>
-        <div className='absolute md:block hidden bg-green-400/75 blur-2xl opacity-10 h-[400px] w-[700px] rounded-full -mt-20 -z-20 ml-60 bottom-0 -mb-32 '></div>
+        <div className='absolute md:block hidden bg-green-400/75 blur-2xl opacity-10 h-[400px] w-[700px] rounded-full -mt-20 -z-20 ml-60 bottom-0 -mb-32'></div>
       </div>
       
     </section>

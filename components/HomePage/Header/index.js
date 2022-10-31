@@ -12,7 +12,7 @@ function Header() {
         setIsLanguageDisplayed(false);
     };
     return (
-        <section className='bg-white flex justify-between items-center fixed top-0 right-0 left-0 px-6 max-w-7xl mx-auto'>
+        <section className='bg-white flex justify-between items-center fixed top-0 right-0 left-0 px-6 max-w-7xl mx-auto z-20'>
             <div className='flex gap-2 mt-8 justify-between items-center'>
                 <Link href='/home' className='flex gap-2'>
                     <img src='/header.svg' alt='header icon' className='md:h-10 md:w-20 h-20 w-10' />
